@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anchor Tag</title>
+</head>
+<body>
+	<h1>Anchor Tag</h1>
+
+	<a href="sample5.html" target="_blank">Single or Double Quotes!</a> 
+	<p>If target="_blank", the link will open in a new browser window or tab.</p>
+	<pre>
+		The target attribute can have one of the following values:
+		    _self - Default. Opens the document in the same window/tab as it was clicked
+		    _blank - Opens the document in a new window or tab
+		    _parent - Opens the document in the parent frame
+		    _top - Opens the document in the full body of the window
+	</pre>
+
+
+
+	<h2>Absolute URLs</h2>
+	<p><a href="https://www.google.com/" target="_blank">Google</a></p>
+
+	<h2>Relative URLs</h2>
+	<p><a href="iframe.html" target="_blank">Iframe</a></p>
+
+
+	<h2>HTML Links - Use an Image as a Link</h2>
+	<a href="birds.html"><img src="bird.gif" alt="Bird" style="width:42px;height:42px;"></a> 
+	<h2>Link to an Email Address</h2>
+
+	<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+	<p><a href="mailto:someone@example.com" title="user's email">Send email</a></p>
+
+	<h2>Button as a Links</h2>
+
+	<p>Click the button to go to Birds.</p>
+
+	<button onclick="document.location='birds.html'">Birds</button>
+</body>
+
+</body>
+</html>
