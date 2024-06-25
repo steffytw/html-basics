@@ -1,5 +1,5 @@
 # HTML
-Files that contain the .htm file extension usually hold HTML web page files. These files are used to format and display images and text in a user's Web browser.
+Files that contain the .html file extension usually hold HTML web page files. These files are used to format and display images and text in a user's Web browser.
 
 An HTM file contains HTML markup code that is stored in a plain-text format. HTML stands for Hypertext Markup Language. The HTML language allows a website designer to create structured documents by creating headings, paragraphs, lists, bullets, links and quotes using the HTML language.
 
